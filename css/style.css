@@ -34,6 +34,10 @@ a {
 p {
   margin-bottom: 1.5em; }
 
+strong {
+  color: #FFA500;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
@@ -845,7 +849,7 @@ body.offcanvas {
     .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
-      color: #2c98f0;
+      color: #FFA500;
       font-size: 60px;
       height: 100px; }
       @media screen and (max-width: 1200px) {
@@ -867,7 +871,7 @@ body.offcanvas {
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
     margin-top: 30px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
-    color: #2c98f0;
+    color: #FFA500;
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
@@ -932,13 +936,13 @@ body.offcanvas {
     -o-transform: scale(1.1);
     transform: scale(1.1); }
 
-.work-menu span {
+.photos-menu span {
   margin-left: 10px; }
-  .work-menu span:first-child {
+  .photos-menu span:first-child {
     margin-left: 0; }
-  .work-menu span a {
+  .photos-menu span a {
     color: #000; }
-    .work-menu span a.active {
+    .photos-menu span a.active {
       color: #FFA500; }
 
 .project {
@@ -956,7 +960,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    background: #FFA500;
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -1200,18 +1204,18 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #2c98f0;
+  background: #FFA500;
   color: #fff;
-  border: 2px solid #2c98f0; }
+  border: 2px solid #FFA500; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #44a4f2 !important;
-    border-color: #44a4f2 !important; }
+    background: #ffb01e !important;
+    border-color: #ffb01e!important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #2c98f0;
-    border: 2px solid #2c98f0; }
+    color: #FFA500;
+    border: 2px solid #FFA500; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #2c98f0;
+      background: #FFA500;
       color: #fff; }
 
 .btn-success {
