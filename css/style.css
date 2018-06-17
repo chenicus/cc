@@ -41,6 +41,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 30px 0; }
 
+  welcome-message {
+    position:absolute;
+    top:250px;
+    left:140px;
+    width:500px;
+    height:50px;
+    background-color:black;
+    z-index:0;
+    opacity:0.5;
+}
+
 figure {
   margin-bottom: 2.5em;
   float: left;
@@ -284,7 +295,8 @@ figure {
       z-index: 9; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
-        vertical-align: middle;
+        vertical-align:bottom;
+        padding-bottom: 3em;
         min-height: 700px;
         padding-left: 2.5em;
         position: relative; }
@@ -294,7 +306,7 @@ figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: black;
+          color: white;
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
@@ -333,12 +345,14 @@ figure {
           border: none;
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-            color: #000;
-            border: 1px solid #000;
+            color: white;
+            border: 1px solid white;
             background: transparent !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
-              background: transparent !important;
-              border: 1px solid #000 !important; }
+              background: white !important;
+              border: 1px solid white !important;
+              color: black;
+            }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
@@ -373,11 +387,11 @@ body.offcanvas {
   margin: 0;
   padding: 0; }
 
-.colorlib-experience,
+.colorlib-projects,
 .colorlib-skills,
 .colorlib-education,
 .colorlib-blog,
-.colorlib-work,
+.colorlib-photos,
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
@@ -387,11 +401,11 @@ body.offcanvas {
   width: 100%;
   display: block; }
   @media screen and (max-width: 768px) {
-    .colorlib-experience,
+    .colorlib-projects,
     .colorlib-skills,
     .colorlib-education,
     .colorlib-blog,
-    .colorlib-work,
+    .colorlib-photos,
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
